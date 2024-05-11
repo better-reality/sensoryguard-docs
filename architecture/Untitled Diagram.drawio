@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T17:10:40.717Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="nvxHTfqdi5t7yKGC90O5" version="24.3.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-11T17:19:29.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="RBZO3HhUsitCNZYEKba_" version="24.3.1" type="github" pages="2">
   <diagram name="Page-1" id="Z_WoCDZQuHsGAi5symoM">
-    <mxGraphModel dx="2269" dy="1177" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
         </object>
         <object placeholders="1" c4Name="Audio &amp; Video Data Storage" c4Type="Container" c4Technology="e.g. Oracle Database 12" c4Description=" " label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="L0rtgT0T-Q8DGm9mh9PH-6">
           <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="890" y="880" width="240" height="120" as="geometry" />
+            <mxGeometry x="940" y="940" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="ckA7hF_mq2jr36iIKILv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="L0rtgT0T-Q8DGm9mh9PH-12" target="L0rtgT0T-Q8DGm9mh9PH-6">
@@ -40,9 +40,12 @@
             <mxGeometry x="870" y="610" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="ckA7hF_mq2jr36iIKILv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="L0rtgT0T-Q8DGm9mh9PH-13" target="ckA7hF_mq2jr36iIKILv-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <object placeholders="1" c4Name="Media Processing Service" c4Type="Container" c4Technology="e.g. SpringBoot, ElasticSearch, etc." c4Description="Description of container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="L0rtgT0T-Q8DGm9mh9PH-13">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="460" y="600" width="240" height="120" as="geometry" />
+            <mxGeometry x="220" y="570" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="API Gateway" c4Type="Container" c4Technology="e.g. SpringBoot, ElasticSearch, etc." c4Description="Description of container role/responsibility." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="L0rtgT0T-Q8DGm9mh9PH-14">
@@ -87,6 +90,23 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ckA7hF_mq2jr36iIKILv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.838;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L0rtgT0T-Q8DGm9mh9PH-12" target="ckA7hF_mq2jr36iIKILv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ckA7hF_mq2jr36iIKILv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.235;entryY=-0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L0rtgT0T-Q8DGm9mh9PH-15" target="L0rtgT0T-Q8DGm9mh9PH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ckA7hF_mq2jr36iIKILv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L0rtgT0T-Q8DGm9mh9PH-13" target="L0rtgT0T-Q8DGm9mh9PH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ckA7hF_mq2jr36iIKILv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L0rtgT0T-Q8DGm9mh9PH-12" target="L0rtgT0T-Q8DGm9mh9PH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Model storage" c4Type="Container" c4Technology="e.g. Oracle Database 12" c4Description=" " label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ckA7hF_mq2jr36iIKILv-19">
+          <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="1220" y="870" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="ckA7hF_mq2jr36iIKILv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.684;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L0rtgT0T-Q8DGm9mh9PH-12" target="ckA7hF_mq2jr36iIKILv-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
